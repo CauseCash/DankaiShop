@@ -2,5 +2,6 @@ Hello everyone, This is my first experience in creating a website, please don't 
 It's just a draft for now, everything will be much better in the future.
 <br>
 
-![image](https://github.com/CauseCash/DankaiShop/assets/94801959/1b0b3c05-c078-4e23-8fb4-6fed8f8f1ebc)
+![image](https://github.com/CauseCash/DankaiShop/assets/94801959/3fce74b9-b6f5-4012-aa35-600ce9a31165)
+
 
