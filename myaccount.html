@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sneaker Shop - My Account</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header__container">
+          <h1>Welcome to DankaiShop - My Account</h1>
+          <div>
+            <a href="index.html"><button>Main</button></a>
+          </div>
+        </div>
+      </header>
+    
+    <main>
+
+        <section class="listing-form">
+            <h2>My Sneaker Listings</h2>
+            <form id="sneakerListingForm">
+                <label for="sneakerName">Sneaker Name:</label>
+                <input type="text" id="sneakerName" name="sneakerName" placeholder="Enter the name of the sneaker" required>
+
+                <label for="sneakerPrice">Sneaker Price ($):</label>
+                <input type="number" id="sneakerPrice" name="sneakerPrice" placeholder="Enter the price" required>
+                <div style="text-align: center;">
+                    <button type="button" onclick="addSneakerListing()">List My Sneaker</button>
+                </div>
+                
+            </form>
+        </section>
+
+        <section class="my-listings">
+            <h1>My Listed Sneakers</h1>
+            <div id="myListings"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 DankaiShop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addSneakerListing() {
+            var sneakerName = document.getElementById('sneakerName').value;
+            var sneakerPrice = document.getElementById('sneakerPrice').value;
+            var listingItem = document.createElement('div');
+            listingItem.classList.add('listing-item');
+            listingItem.innerHTML = `<h3>${sneakerName}</h3><p>Price: $${sneakerPrice}</p>`;
+
+            document.getElementById('myListings').appendChild(listingItem);
+        }
+    </script>
+
+</body>
+</html>

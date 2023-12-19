@@ -1,0 +1,106 @@
+.header__container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+}
+        
+header {
+    background-color: #a51313;
+    color: white;
+    padding: 10px;
+}
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.sneaker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sneaker-item {
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sneaker-img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #a51313;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #f1ecec;
+    color: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+     
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.listing-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.my-listings {
+    margin-top: 20px;
+}
+
+.listing-item {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
